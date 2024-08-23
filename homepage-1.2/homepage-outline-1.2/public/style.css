@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(199, 186, 186);
+    text-align: center;
+    padding: 25px;
+}
+
+.row {
+    display: flex;
+}
+
+.column{
+    flex: 50%;
+    padding: 20px;
+}
+
+
+.hero{
+    text-align: center;
+}
+
+.heroart{
+    padding: 5px;
+    width: 85%;
+    height: 85%;
+}
+
+.headline{
+    color: rgb(170, 26, 170);
+    font-weight: bold;
+    margin: 20px;
+}
+
+.subheadline{
+    color: purple;
+    text-indent: 20%;
+}
+
+.pherobutton{
+    text-indent: 30%;
+}
+
+.navbar{
+    background-color: rgb(27, 27, 27);
+    height: 50px;
+}
+
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+footer{
+    display: block;
+    clear: both;
+    background-color: rgb(199, 186, 186);
+    text-align: center;
+    padding: 25px;
+}
+
+/* responsive css */
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100%;
+    }
+}
