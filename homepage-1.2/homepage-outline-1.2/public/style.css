@@ -12,6 +12,34 @@ header{
     padding: 25px;
 }
 
+footer{
+    display: block;
+    clear: both;
+    background-color: rgb(225, 159, 228);
+    text-align: center;
+    padding: 25px;
+}
+
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+
+
 .row {
     display: flex;
 }
@@ -20,10 +48,6 @@ header{
     flex: 50%;
     padding: 20px;
 }
-
-
-
-
 .heroart{
     padding: 5px;
     width: 85%;
@@ -88,31 +112,6 @@ header{
     padding: 20px;
 }
 
-aside{
-    width: 20%;
-    float: left;
-    padding: 10px;
-}
-
-section{
-    width: 40%;
-    float: left;
-    padding: 10px;
-}
-
-article{
-    width: 40%;
-    float: left;
-    padding: 10px;
-}
-
-footer{
-    display: block;
-    clear: both;
-    background-color: rgb(199, 186, 186);
-    text-align: center;
-    padding: 25px;
-}
 
 /* responsive css */
 @media screen and (max-width:600px){
