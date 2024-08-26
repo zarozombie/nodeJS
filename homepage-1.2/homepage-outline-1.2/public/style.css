@@ -49,19 +49,24 @@ article{
     flex: 50%;
     padding: 20px;
 }
+
+.heroSection{
+    text-align: center;
+}
+
 .heroart{
     padding: 5px;
     width: 85%;
     height: 85%;
 }
 
-.heroheadline{
+.heroHeadline{
     color: rgb(170, 26, 170);
     font-weight: bold;
     margin: 20px;
 }
 
-.herosubheadline{
+.heroSubheadline{
     color: purple;
     text-indent: 20%;
 }
@@ -86,9 +91,7 @@ article{
     height: 50px;
 }
 
-.sechero{
-    text-align: center;
-}
+
 .resultsec{
     background-color: rgb(240, 238, 238);
     padding: 20px;
