@@ -40,6 +40,7 @@ article{
 
 
 
+
 .row {
     display: flex;
 }
@@ -54,15 +55,26 @@ article{
     height: 85%;
 }
 
-.headline{
+.heroheadline{
     color: rgb(170, 26, 170);
     font-weight: bold;
     margin: 20px;
 }
 
-.subheadline{
+.herosubheadline{
     color: purple;
     text-indent: 20%;
+}
+
+.headline{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 20px;
+}
+
+.subheadline{
+    color: rgb(0, 0, 0);
+    text-indent: 10%;
 }
 
 .pherobutton{
@@ -89,10 +101,17 @@ article{
 
 .benefitssec{
     background-color: rgb(240, 238, 238);
+/*    float: right; */
     padding: 20px;
 }
 
+.rightpos{
+    background-color: rgb(240, 238, 238);
+    text-align: left;
+}
+
 .testimonialssec{
+    text-align: right;
     background-color: rgb(255, 252, 252);
     padding: 20px;
 }
@@ -103,6 +122,7 @@ article{
 }
 
 .faqsec{
+    text-align: center;
     background-color: rgb(255, 252, 252);
     padding: 20px;
 }
